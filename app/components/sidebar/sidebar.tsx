@@ -42,7 +42,7 @@ export default function Sidebar() {
     <>
       {/* Mobile Toggle Button */}
       <button
-        className="p-2 fixed top-30 left-4 z-50 bg-gray-800 text-white rounded-md md:hidden"
+        className="p-2 absolute top-30 left-4 z-50 bg-gray-800 text-white rounded-md md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         <Menu size={24} />
@@ -51,9 +51,9 @@ export default function Sidebar() {
       {/* Sidebar */}
       <section className="flex flex-col">
         <aside
-          className={`fixed md:top-0 top-30 left-0 min-h-screen md:h-[45%] mt-12  md:ml-4 w-screen md:w-[87%] rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
+          className={`fixed md:top-0 top-30 left-0 min-h-screen md:h-[45%] mt-12  md:ml-4 w-screen md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
             } md:relative md:flex`}
-            // style={{ maxHeight: "100vh", overflowY: "auto" }} 
+          
         >
           {/* <h2 className="text-xl font-bold mb-4">Math Topics</h2> */}
           <ul>
@@ -73,7 +73,7 @@ export default function Sidebar() {
         </aside>
 
         <aside
-          className={`fixed md:top-0 top-30 left-0 hidden min-h-screen md:h-[45%] mt-24 md:ml-4 w-[45%] md:w-[87%] rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
+          className={`fixed md:top-0 top-30 left-0 hidden min-h-screen md:h-[45%] mt-24 md:ml-4 w-[45%] md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
             } md:relative md:flex`}
         >
           {/* <h2 className="text-xl font-bold mb-4">Math Topics</h2> */}

@@ -37,7 +37,7 @@ export default function RootLayout({
         {/* <MathJaxContext> */}
         <Header />
         <Nav />
-        <div className="flex min-h-screen">
+        <div className="flex sm:gap-10 min-h-screen">
           <Sidebar />
           <main className="flex-1 p-6">{children}</main>
         </div>

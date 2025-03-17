@@ -2,8 +2,8 @@
 
 export default function QuadraticEquations() {
   return (
-    <div className="min-h-screen p-6  text-gray-800">
-      <div className="max-w-3xl mx-auto bg-white shadow-md p-6 rounded-lg">
+    <div className="min-h-screen mt-6 text-gray-800">
+      <div className="max-w-6xl mx-auto bg-white shadow-md p-6 rounded-lg">
         <h1 className="text-3xl font-bold text-center text-blue-600">Quadratic Equations</h1>
         <p className="mt-4 text-lg">
           A quadratic equation is a second-degree polynomial equation in a single variable x.

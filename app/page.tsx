@@ -20,7 +20,7 @@ const page = () => {
     
       <section className="p-6">
         <h2 className="text-2xl font-semibold text-center">Explore Key Math Topics</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6">
           {[
             "Quadratic Equations",
             "Linear Equations",
