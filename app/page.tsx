@@ -20,7 +20,7 @@ const page = () => {
     
       <section className="p-6">
         <h2 className="text-2xl font-semibold text-center">Explore Key Math Topics</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6">
           {[
             "Quadratic Equations",
             "Linear Equations",
@@ -35,9 +35,9 @@ const page = () => {
             "Integration",
             "Mensuration",
           ].map((topic) => (
-            <div key={topic} className="bg-gray-100 md:p-4 py-6 px-6 rounded-md shadow-md text-center cursor-pointer hover:bg-gray-200 transition hover:translate-y-2">
+            <div key={topic} className="bg-gray-100 md:p-4 px-6 py-3 rounded-md shadow-md text-center cursor-pointer hover:bg-gray-200 transition hover:translate-y-2">
               <h3 className="md:text-lg text-sm font-bold">{topic}</h3>
-              <p className="text-gray-600 text-xs mt-2">Learn the fundamentals of {topic} and apply them to real-world problems.</p>
+              <p className="text-gray-600 text-sm mt-2">Learn the fundamentals of {topic} and apply them to real-world problems.</p>
             </div>
           ))}
         </div>

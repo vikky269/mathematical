@@ -59,7 +59,7 @@ const Header = () => {
        <Image src="/logo.png" alt="Math Learning" width={200} height={250} />
       </Link> */}
       
-        <h1 className="md:text-3xl text-2xl font-bold">{topic.title}</h1>
+        <h1 className="md:text-3xl text-xl font-bold">{topic.title}</h1>
         <p className="mt-2 text-md">{topic.subtitle}</p>
     
     </header>

@@ -29,7 +29,7 @@ export default function Sidebar() {
     <>
       {/* Mobile Toggle Button */}
       <button
-        className="p-2 fixed top-25 left-4 z-50 bg-gray-800 text-white rounded-md md:hidden"
+        className="p-2 fixed top-30 left-4 z-50 bg-gray-800 text-white rounded-md md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         <Menu size={24} />
@@ -37,7 +37,7 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`fixed md:top-0 top-28 left-0 min-h-screen md:h-[30%] mt-12 ml-4 w-[45%] md:w-[23%] rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${
+        className={`fixed md:top-0 top-30 left-0 min-h-screen md:h-[30%] mt-12 ml-4 w-[45%] md:w-[23%] rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:relative md:flex`}
       >
