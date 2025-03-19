@@ -146,7 +146,7 @@ export default function QuadraticEquations() {
         
         {/* Take-Home Assignment */}
         <div className="mt-6 bg-blue-50 p-4 rounded-lg">
-          <h3 className="text-xl font-semibold text-blue-600">Take-Home Assignment</h3>
+          <h3 className="text-xl font-semibold text-blue-600">Practice Work</h3>
           <p>Solve the following quadratic equations using any method:</p>
           <ul className="list-disc pl-6 mt-2">
             <li>x² + 7x + 10 = 0</li>

@@ -49,9 +49,9 @@ export default function Sidebar() {
       </button>
 
       {/* Sidebar */}
-      <section className="flex flex-col">
+      <section className="flex flex-col h-screen">
         <aside
-          className={`fixed md:top-0 top-30 left-0 min-h-screen md:h-[45%] mt-12  md:ml-4 w-screen md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
+          className={`fixed md:top-0 top-30 left-0  h-[900px] mt-12  md:ml-4 w-screen md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
             } md:relative md:flex`}
           
         >
@@ -72,11 +72,11 @@ export default function Sidebar() {
           </ul>
         </aside>
 
-        <aside
+        {/* <aside
           className={`fixed md:top-0 top-30 left-0 hidden min-h-screen md:h-[45%] mt-24 md:ml-4 w-[45%] md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
             } md:relative md:flex`}
         >
-          {/* <h2 className="text-xl font-bold mb-4">Math Topics</h2> */}
+          
           <ul>
             {topics.map((topic) => (
               <li key={topic.path} className="mb-2">
@@ -91,7 +91,8 @@ export default function Sidebar() {
               </li>
             ))}
           </ul>
-        </aside>
+        </aside> */}
+        
       </section>
     </>
   );

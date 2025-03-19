@@ -49,18 +49,20 @@ const topics: { [key: string]: { title: string; subtitle: string } } = {
 const Header = () => {
   const pathname = usePathname();
   const topic = topics[pathname] || {
-    title: "Welcome to Math Learning 📚✨",
+    title: "Welcome to SmartMathz Learning 📚✨",
     subtitle: "Select a topic to get started",
   };
 
   return (
     <header className="bg-blue-600 text-white py-4 text-center items-center">
       {/* <Link href={"/"} passHref>
-       <Image src="/logo.png" alt="Math Learning" width={200} height={250} />
+       <Image src="/logo.png" alt="Math Learning" width={200} height={150} className="" />
       </Link> */}
       
+      <div className="text-center">
         <h1 className="md:text-3xl text-xl font-bold">{topic.title}</h1>
-        <p className="mt-2 text-md">{topic.subtitle}</p>
+        <p className="mt-2  text-md">{topic.subtitle}</p>
+      </div>
     
     </header>
   );

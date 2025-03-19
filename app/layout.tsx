@@ -35,6 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <MathJaxContext> */}
+      
         <Header />
         <Nav />
         <div className="flex sm:gap-10 min-h-screen">
