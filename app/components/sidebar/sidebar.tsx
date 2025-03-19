@@ -51,7 +51,7 @@ export default function Sidebar() {
       {/* Sidebar */}
       <section className="flex flex-col h-screen">
         <aside
-          className={`fixed md:top-0 top-30 left-0  h-[900px] mt-12  md:ml-4 w-screen md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
+          className={`fixed md:top-0 top-30 left-0  h-[800px] mt-12  md:ml-4 w-screen md:w-full rounded-lg bg-blue-600 text-white p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
             } md:relative md:flex`}
           
         >
