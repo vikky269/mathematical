@@ -27,7 +27,7 @@ export default function QuizzesPage() {
 
       {/* Modal for Quiz Confirmation */}
       {selectedQuiz && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-200">
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-200 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center w-96">
             <h2 className="text-xl font-bold">Ready to take the quiz?</h2>
             <p className="text-gray-600 mb-4">Click the Start button to begin!</p>

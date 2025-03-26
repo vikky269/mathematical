@@ -66,7 +66,7 @@ export default function QuizPage() {
             You scored {score} out of {questions.length}
           </h2>
         
-         <Confetti  className="sm:w-100 sm:h-100 md:w-300 md:h-350"/>
+         {/* <Confetti  className="sm:w-100 sm:h-100 md:w-300 md:h-350"/> */}
 
 
           {/* Celebration Message for 10/10 */}

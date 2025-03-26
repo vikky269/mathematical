@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <header className="bg-blue-600 text-white py-6 text-center rounded-lg mt-6 px-3">
+      <header className="bg-[#0C2D48] text-white py-6 text-center rounded-lg mt-6 px-3">
         <h1 className="md:text-4xl text-2xl font-bold">Master Mathematics with Ease</h1>
         <p className="mt-3 text-sm md:text-lg">
           Explore interactive lessons, step-by-step solutions, and practice problems to boost your math skills.
@@ -70,10 +70,10 @@ const page = () => {
         </p>
       </section>
 
-      <section className="p-6 text-center bg-blue-600 text-white rounded-lg">
+      <section className="p-6 text-center bg-[#0C2D48] text-white rounded-lg">
         <h2 className="text-2xl font-semibold">Start Your Learning Journey Today</h2>
         <p className="mt-3 text-lg">Join thousands of students improving their math skills with our interactive lessons.</p>
-        <button className="mt-5 px-6 py-3 bg-white text-blue-600 font-semibold rounded-md hover:bg-gray-200 transition cursor-pointer">
+        <button className="mt-5 px-6 py-3 bg-[#76a40b] text-white font-semibold rounded-md hover:bg-[#53A40B] transition cursor-pointer">
           Get Started for Free
         </button>
       </section>
