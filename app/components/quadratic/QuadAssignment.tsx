@@ -4,7 +4,7 @@ import { MathJax } from "better-react-mathjax";
 
 export const QuadAssignment = () => {
   return (
-    <div className='bg-blue-50 p-4 rounded-lg mt-6'>
+    <div className='bg-[#ffffe4] shadow-lg py-4 px-3 rounded-lg mt-6'>
         <h2 className="text-2xl font-bold mt-6">Practice Work</h2>
         <p className='text-lg mt-4'>Solve the following quadratic equations using the factorization method:</p>
         <ol className="list-disc pl-6 mt-2 text-lg">

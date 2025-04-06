@@ -62,7 +62,7 @@ const Header = () => {
       };
 
   return (
-    <header className="bg-white text-[#0C2D48] text-center items-center">
+    <header className="text-[#0C2D48] text-center items-center">
       <div className={`${isHomePage ? "" : "py-5"} text-center`}>
         <h1 className="md:text-3xl text-xl font-bold flex justify-center items-center">
           {topic.title}
