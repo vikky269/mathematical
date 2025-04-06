@@ -52,9 +52,6 @@ export default function Sidebar() {
 
       {/* Sidebar */}
        <aside
-          // className={`fixed md:top-0 top-30 left-0 z-50 min-h-screen h-[85%] mt-12  md:ml-4 w-screen md:w-[20%] rounded-lg  text-white bg-[#0C2D48] p-2 transition-transform md:translate-x-0  md:block ${isOpen ? "translate-x-0" : "-translate-x-full"
-          //   } md:relative md:flex`}
-
             className={`fixed top-0 left-0 z-50 min-h-screen h-full w-[70%] md:w-[20%] md:mt-12 md:ml-4 rounded-lg bg-[#0C2D48] text-white p-4 transition-transform duration-300 ${
               isOpen ? "translate-x-0" : "-translate-x-full"
             } md:translate-x-0 md:relative md:block`}

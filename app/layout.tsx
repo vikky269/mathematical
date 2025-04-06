@@ -1,13 +1,11 @@
-
-
-import type { Metadata } from "next";
+import type { Metadata } from "next"; 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/footer";
 import Sidebar from "./components/sidebar/sidebar";
 import Nav from "./components/Navlinks/Nav";
-// import { MathJaxContext } from "better-react-mathjax";
+import MathWrapper from "./components/wrapper/MathWrapper"; // Import MathWrapper
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,20 +29,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {/* <MathJaxContext> */}
-      
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         <Nav />
         <div className="flex sm:gap-10 min-h-screen">
           <Sidebar />
-          <main className="flex-1 p-6">{children}</main>
+          {/* Wrap only the content that needs MathJax in MathWrapper */}
+          <MathWrapper> 
+            <main className="flex-1 p-6">{children}</main>
+          </MathWrapper>
         </div>
-
         <Footer />
-        {/* </MathJaxContext> */}
       </body>
     </html>
   );

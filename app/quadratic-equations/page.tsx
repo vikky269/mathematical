@@ -17,23 +17,17 @@ export default function QuadraticEquations() {
          <EquationIntro />
          <SolutionMethod />
     
-        <div className="hidden md:block">
-          <button className="mt-10">
-            <Link href="/quadratic-equations/part-2" className="mt-6 px-4 py-2 bg-[#76a40b] text-white cursor-pointer rounded-md hover:bg-[#98b05ffb]">
-              Next Lesson
-            </Link>
-          </button>
-        </div>
+       
 
-        <div className="md:hidden block">
+        
           <Factorization />
           <CompletingSquare />
           <AlmightyFormular />
           <GraphicalMethod />
-        </div>
+        
       
-        <button className="mt-10 md:hidden block">
-          <Link href="/quizzes" className="mt-6 px-4 py-2 bg-[#76a40b] text-white cursor-pointer rounded-md hover:bg-[#98b05ffb]">
+        <button className="mt-10 block">
+          <Link href="/quizzes" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#98b05ffb]">
             Take quiz
           </Link>
         </button>

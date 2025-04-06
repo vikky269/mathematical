@@ -1,4 +1,5 @@
 const quizzes = [
+  
     { topic: "quadratic-equations", name: "Quadratic Equations", description: "Test your knowledge on quadratic equations." },
     { topic: "linear-equations", name: "Linear Equations", description: "Practice solving linear equations." },
     { topic: "geometry", name: "Geometry", description: "Challenge yourself with geometry problems." },
