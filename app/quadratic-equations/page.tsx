@@ -12,7 +12,7 @@ import { QuadAssignment } from "../components/quadratic/QuadAssignment";
 export default function QuadraticEquations() {
   return (
     <div className="min-h-screen mt-6 text-gray-800 overflow-x-hidden overflow-y-hidden">
-      <div className="max-w-8xl mx-auto  py-6 px-3 rounded-lg">
+      <div className="max-w-8xl mx-auto py-6 px-3 rounded-lg">
         <h1 className="text-3xl font-bold text-center text-[#76a40b]">Quadratic Equations</h1>
          <EquationIntro />
          <SolutionMethod />

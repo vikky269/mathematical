@@ -2,7 +2,7 @@
 
 
  body{
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #FFFFE4;
 }
 
