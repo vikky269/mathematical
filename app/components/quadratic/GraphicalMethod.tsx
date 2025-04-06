@@ -15,7 +15,7 @@ const GraphicalMethod = () => {
           <h2 className='text-xl mb-4'>
               To use the graphical method in solving quadratic equations, these are the steps to follow.
           </h2>
-          <ol className="list-decimal pl-6 space-y-2 text-xl">
+          <ol className="list-decimal pl-6 space-y-2 text-lg md:text-xl">
               <li>
                   Write the equation as a function. That is,{" "}
                   <MathJax inline>{"\\( y = ax^2 + bx + c \\)"}</MathJax>.

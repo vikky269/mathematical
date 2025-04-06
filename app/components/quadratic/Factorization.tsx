@@ -12,7 +12,7 @@ const Factorization = () => {
     <MathJaxContext config={config}>
       <div className="mt-8">
         <h3 className="text-2xl font-bold mb-1">Method 1: Factorization</h3>
-        <p className="text-xl mb-4">
+        <p className="text-lg md:text-xl mb-4">
           If a quadratic equation can be factored into two binomial expressions, we can solve for  <MathJax inline>{"\\(x\\)"}</MathJax> easily.
         </p>
 
@@ -23,7 +23,7 @@ const Factorization = () => {
         </p>
 
         <h3 className="font-bold mt-4 md:text-xl">Step 1: Find two numbers that multiply to 6 and add to -5:{" "} </h3>
-        <p className="text-lg text-center mt-4">
+        <p className="text-md md:text-lg text-center mt-4">
           <MathJax inline>{"\\( (-2) \\times (-3) = 6, \\quad (-2) + (-3) = -5 \\)"}</MathJax>
         </p>
 

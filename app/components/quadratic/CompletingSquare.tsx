@@ -10,7 +10,7 @@ const CompletingSquare = () => {
         To use the method of completing the square, follow the steps below:
       </p>
 
-      <ul className="list-disc list-inside space-y-2 text-xl">
+      <ul className="list-disc list-inside space-y-2 text-lg md:text-xl">
         <li>Arrange the equation such that the constant term is on one side and the term containing the variables is on the other side.</li>
         <li>Reduce the coefficient of the term in degree two to one by dividing both sides of the equation by its coefficient.</li>
         <li>Add the square of half of the coefficient of the linear term to both sides.</li>
