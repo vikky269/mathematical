@@ -6,7 +6,7 @@ const page = () => {
       <header className="bg-[#0C2D48] text-white py-6 text-center rounded-lg mt-6 px-3">
         <h1 className="md:text-4xl text-2xl font-bold">Master Mathematics with Ease</h1>
         <p className="mt-3 text-sm md:text-lg">
-          Explore interactive lessons, step-by-step solutions, and practice problems to boost your math skills.
+          Exploree interactive lessons, step-by-step solutions, and practice problems to boost your math skills.
         </p>
       </header>
      
