@@ -12,7 +12,7 @@ const GraphicalMethod = () => {
               Method 4: Graphical Method
           </h3>
 
-          <h2 className='text-xl mb-4'>
+          <h2 className='text-lg md:text-xl mb-4'>
               To use the graphical method in solving quadratic equations, these are the steps to follow.
           </h2>
           <ol className="list-decimal pl-6 space-y-2 text-lg md:text-xl">
