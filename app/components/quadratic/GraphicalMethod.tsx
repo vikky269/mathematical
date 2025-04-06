@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { QuadAssignment } from './QuadAssignment'
 import {MathJax} from 'better-react-mathjax';
