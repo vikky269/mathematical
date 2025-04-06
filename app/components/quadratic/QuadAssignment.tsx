@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { MathJax } from "better-react-mathjax";
 
@@ -17,7 +18,7 @@ export const QuadAssignment = () => {
               </li>
         </ol>
         <p className='text-lg mt-4'>Solve the following quadratic equations using the completing the square method:</p>
-        
+
         <ol className="list-disc pl-6 mt-2 text-lg">
             
               <li className="mt-6 text-xl">
