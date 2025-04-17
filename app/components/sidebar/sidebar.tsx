@@ -19,6 +19,7 @@ const topics = [
   { name: "differentiation", path: "/differentiation" },
   { name: "integration", path: "/integration" },
   { name: "Mensuration", path: "/mensuration" },
+  { name: "Pemdas", path: "/pemdas" },
 ];
 
 
@@ -26,6 +27,9 @@ const topics = [
 export default function Sidebar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+  const isHome = pathname === '/';
+  const topClass = isHome ? 'top-[212px]' : 'top-[180px]';
 
   useEffect(() => {
     if (isOpen) {
@@ -44,7 +48,7 @@ export default function Sidebar() {
     <>
       {/* Mobile Toggle Button */}
       <button
-        className="p-2 fixed top-53 left-3 z-10 bg-gray-800 text-white mr-16 rounded-md md:hidden"
+        className={`p-2 absolute ${topClass} left-3 z-10 bg-gray-800 text-white mr-16 rounded-md md:hidden`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <Menu size={24} />
