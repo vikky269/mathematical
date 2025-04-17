@@ -18,7 +18,7 @@ const topics: { [key: string]: { title: string; subtitle: string } } = {
   },
   "/probability": {
     title: "Probability",
-    subtitle: "Learn about probability and its real-world applications",
+    subtitle: "Learn about probability and its applications",
   },
   "/statistics": {
     title: "Statistics",

@@ -36,7 +36,7 @@ const page = () => {
             <MnemonicTips />
             <SolvedExamples />
             <div className="flex flex-col items-center justify-center mt-8">
-                <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>PEMDAS Quiz</h2>
+                <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>Quick Puzzle</h2>
                 <PemdasQuiz />
                 </div>
                 <TakeHomeAssignment />

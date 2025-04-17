@@ -25,7 +25,7 @@ export const PemdasQuiz = () => {
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
         onFocus={handleFocus}
-        className="border rounded px-2 py-1 mr-2 focus:outline-none focus:ring-2 focus:ring-[#76a40b]"
+        className="border rounded px-2 py-1 mb-6 mr-2 focus:outline-none focus:ring-2 focus:ring-[#76a40b]"
       />
       <button
         onClick={checkAnswer}
