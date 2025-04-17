@@ -33,7 +33,7 @@ export default function Sidebar() {
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden"; // Disable scrolling
+      document.body.style.overflow = "auto"; // Disable scrolling
     } else {
       document.body.style.overflow = "auto"; // Enable scrolling
     }
