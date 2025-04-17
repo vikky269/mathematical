@@ -27,23 +27,10 @@ const page = () => {
                   {/* <p className='text-lg mb-4'>Learn about different types of slopes.</p> */}
                   <SlopeTypes />
               </div>
-
-             <SlopeExample />
+            <SlopeExample />
 
              <SlopeExampleTwo />
                
-              {/* <div className='flex flex-col items-center justify-center mt-8'>
-                  <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>Slope Calculator</h2>
-                  <p className='text-lg mb-4'>Calculate the slope between two points.</p>
-                  <SlopeCalculator />
-              </div> */}
-
-              {/* <div className='flex flex-col items-center justify-center mt-8'>
-                  <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>Slope Calculator</h2>
-                  <p className='text-lg mb-4'>Calculate the slope between two points.</p>
-                  <SlopeCalculator />
-              </div> */}
-
               <SlopeCalculatorWithChart />
         </div>
 
