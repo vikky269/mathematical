@@ -31,18 +31,6 @@ const page = () => {
              <SlopeExample />
 
              <SlopeExampleTwo />
-               
-              {/* <div className='flex flex-col items-center justify-center mt-8'>
-                  <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>Slope Calculator</h2>
-                  <p className='text-lg mb-4'>Calculate the slope between two points.</p>
-                  <SlopeCalculator />
-              </div> */}
-
-              {/* <div className='flex flex-col items-center justify-center mt-8'>
-                  <h2 className='text-2xl font-bold mb-4  text-[#76a40b] uppercase'>Slope Calculator</h2>
-                  <p className='text-lg mb-4'>Calculate the slope between two points.</p>
-                  <SlopeCalculator />
-              </div> */}
 
               <SlopeCalculatorWithChart />
         </div>
@@ -52,7 +40,7 @@ const page = () => {
         
           <div className='md:flex-row flex flex-col justify-between items-center'>
               <button className="mt-10 block">
-                  <Link href="/quizzes" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#1e2735]">
+                  <Link href="/quizzes/geometry" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#1e2735]">
                       Take quiz
                   </Link>
               </button>

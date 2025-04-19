@@ -29,7 +29,7 @@ const SlopeTypes: React.FC = () => {
 
         <div className='mt-6'>
           <p className="text-lg font-semibold text-gray-800 text-center">Visual Representation:</p>
-            <img src="/slopetype.gif" alt="" className='mt-4 cursor-pointer' />
+            <img src="/slopetype.jpg" alt="" className='mt-4 cursor-pointer' />
         </div>
       </motion.div>
     );

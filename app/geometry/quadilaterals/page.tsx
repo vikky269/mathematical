@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { cn } from '../../lib/utils';
 import { DndContext, useDraggable } from '@dnd-kit/core';
 import ShapeQuiz from '@/app/components/quadilaterals/ShapeQuiz';
-//import LottieAnimation from '@/app/components/LottieAnimation/LottieAnimation';
-//import SquareAnimation from '@/app/components/LottieAnimation/SquareAnimation';
+import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import QuadSquadInfo from '@/app/components/quadilaterals/QuadInfo';
 
 const LottieAnimation = dynamic(() => import('@/app/components/LottieAnimation/LottieAnimation'), {
   ssr: false,
@@ -65,6 +65,14 @@ const initialShapes: Shape[] = [
     description: 'All sides equal, no right angles.',
     color: 'bg-yellow-200',
     position: { x: 0, y: 0 },
+  },
+  {
+    id: 'kite',
+    name: 'Kitty Kite',
+    image: '/kite.png',
+    description: 'All sides equal, flies high with style!',
+    color: 'bg-blue-200',
+    position: { x: 0, y: 0 },
   }
 ];
 
@@ -110,10 +118,10 @@ const QuadSquadPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-blue-50 p-4">
-      <h1 className="text-center text-4xl font-bold mb-6">🎉 Meet the Quad Squad! 🎉</h1>
+    <div className="min-h-screen">
+      <h1 className="text-center max-sm:text-[30px] text-[27px] md:text-4xl font-bold mb-6">🎉 Meet the Quad Squad! 🎉</h1>
 
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap md:flex-wrap justify-center gap-4">
         {shapes.map((shape) => (
           <motion.div
             key={shape.id}
@@ -171,6 +179,10 @@ const QuadSquadPage = () => {
         </motion.div>
       )}
 
+
+      <h2 className="mt-12 text-2xl md:text-4xl font-bold text-center">📚 Learn More about the Quad Squad</h2>
+      <QuadSquadInfo />
+
       <div className='grid grid-cols-2'>
         <div className='flex flex-col items-center justify-center mt-8 cursor-pointer'>
           <span className='font-semibold'>Rectangle</span>
@@ -186,8 +198,15 @@ const QuadSquadPage = () => {
       
 
       <div className='mt-8'>
+        <h2 className='text-2xl text-[#76a40b] font-bold mb-4 text-center'>🧠 QUICK PUZZLE</h2>
         <ShapeQuiz />
       </div>
+
+      <button className="mt-10 block">
+        <Link href="/quizzes/geometry" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#1e2735]">
+          Take quiz
+        </Link>
+      </button>
     </div>
   );
 };

@@ -27,7 +27,7 @@ export default function QuadraticEquations() {
         
       
         <button className="mt-10 block">
-          <Link href="/quizzes" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#1e2735]">
+          <Link href="/quizzes/quadratic-equations" className="mt-6 px-4 py-2 bg-[#0C2D48] text-white cursor-pointer rounded-md hover:bg-[#1e2735]">
             Take quiz
           </Link>
         </button>

@@ -16,10 +16,10 @@ const topics = [
   { name: "Calculus", path: "/calculus" },
   { name: "Exponents", path: "/exponents" },
   { name: "Logarithms", path: "/logarithms" },
-  { name: "differentiation", path: "/differentiation" },
-  { name: "integration", path: "/integration" },
+  { name: "Differentiation", path: "/differentiation" },
+  { name: "Integration", path: "/integration" },
   { name: "Mensuration", path: "/mensuration" },
-  { name: "Pemdas", path: "/pemdas" },
+  { name: "PEMDAS", path: "/pemdas" },
 ];
 
 

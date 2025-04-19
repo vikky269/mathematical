@@ -19,7 +19,7 @@ const SlopeExample = () => {
 
         <div className="flex justify-center mb-4">
           <Image
-            src="/example.jpg"
+            src="/exampleone.png"
             alt="Graph showing slope"
             width={400}
             height={400}

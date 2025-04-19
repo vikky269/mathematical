@@ -9,7 +9,7 @@ const SlopeAssignment = () => {
         <span className='font-semibold text-lg'>Question 1</span>
          <div className="flex justify-center mb-4">
                   <Image
-                    src="/assignmente.jpg"
+                    src="/assone.png"
                     alt="Graph showing slope"
                     width={400}
                     height={400}
@@ -20,7 +20,7 @@ const SlopeAssignment = () => {
           <span className='font-semibold text-lg '>Question 2</span>
           <div className="flex justify-center mb-4">
               <Image
-                  src="/assignment.jpg"
+                  src="/Ass.jpg"
                   alt="Graph showing slope"
                   width={400}
                   height={400}
