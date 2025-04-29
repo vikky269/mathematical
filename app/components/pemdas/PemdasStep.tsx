@@ -10,7 +10,7 @@ interface StepProps {
 
 export const PemdasStep: React.FC<StepProps> = ({ icon, title, description, color }) => (
   <motion.div
-    className={`flex items-center gap-4 bg-${color}-100 rounded-xl p-4 shadow-md cursor-pointer`}
+    className={`flex items-center gap-4  rounded-xl p-4 shadow-lg cursor-pointer`}
     whileHover={{ scale: 1.05 }}
     transition={{ type: 'spring', stiffness: 300 }}
   >

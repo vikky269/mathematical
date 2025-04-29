@@ -19,7 +19,7 @@ const topics = [
   { name: "Differentiation", path: "/differentiation" },
   { name: "Integration", path: "/integration" },
   { name: "Mensuration", path: "/mensuration" },
-  { name: "PEMDAS", path: "/pemdas" },
+  { name: "Order of Operations", path: "/pemdas" },
 ];
 
 
