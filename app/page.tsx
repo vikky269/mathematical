@@ -19,7 +19,7 @@ const page = () => {
         </p>
       </section>
     
-      {/* <section className="p-6">
+      <section className="p-6">
         <h2 className="text-2xl font-semibold text-center">Explore Key Math Topics</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6">
           {[
@@ -42,9 +42,9 @@ const page = () => {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
 
-      <MathTopicsCarousel />
+      {/* <MathTopicsCarousel /> */}
     
       <section className="p-6 bg-blue-50 rounded-lg text-center">
         <h2 className="text-2xl font-semibold">Why Learn with Us?</h2>
