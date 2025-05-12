@@ -8,7 +8,7 @@ import { Menu } from "lucide-react"; // Install using `npm install lucide-react`
 const topics = [
   { name: "Quadratic Equations", path: "/quadratic-equations" },
   { name: "Linear Equations", path: "/linear-equations" },
-  { name: "Algebraic Expressions", path: "/algebraic-expressions" },
+  { name: "Algebraic Expressions", path: "/algebraicExpressions" },
   { name: "Probability", path: "/probability" },
   { name: "Statistics", path: "/statistics" },
   { name: "Geometry", path: "/geometry" },
