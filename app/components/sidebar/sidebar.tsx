@@ -20,6 +20,7 @@ const topics = [
   { name: "Integration", path: "/integration" },
   { name: "Mensuration", path: "/mensuration" },
   { name: "Order of Operations", path: "/pemdas" },
+  { name: "Fractions", path: "/fractions" },
 ];
 
 
