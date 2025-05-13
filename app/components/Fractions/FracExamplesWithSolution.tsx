@@ -28,7 +28,7 @@ const FractionExamplesWithSolutions = () => {
   );
 
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-6 space-y-6">
+    <section className=" mb-6 space-y-6">
       <h2 className="text-2xl font-bold mb-2">Examples</h2>
 
       {/* Example 1 */}

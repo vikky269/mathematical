@@ -4,7 +4,7 @@ import React from "react";
 
 const FractionExamples = () => {
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-6">
+    <section className="mb-6">
       <h2 className="text-2xl font-bold mb-4">Fraction Examples in Real Life</h2>
       <p className="mb-2">
         Let us look at a few examples of how fractions appear in everyday life:

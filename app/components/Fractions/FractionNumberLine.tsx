@@ -4,7 +4,7 @@ import React from "react";
 
 const FractionsOnNumberLine = () => {
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-6">
+    <section className="mb-6">
       <h2 className="text-2xl font-bold mb-4">Fractions on a Number Line</h2>
       <p className="mb-2">
         Fractions can also be represented on a number line, just like whole numbers. This helps us to visualize the size of fractions and compare them easily.
@@ -13,7 +13,7 @@ const FractionsOnNumberLine = () => {
         Let’s consider the number line from 0 to 1. If we divide it into 4 equal parts, each part represents <strong>1/4</strong>.
       </p>
 
-      <div>
+      <div className="mb-8 mt-6">
         <img
           src="/number-line.png"
           alt="Number line with fractions"
