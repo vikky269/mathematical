@@ -14,11 +14,11 @@ export default function SimplifyingAlgebraicExpressions() {
   return (
     <main className="max-w-3xl mx-auto py-10 text-lg">
       <MathJaxContext config={config}>
-        <h1 className="text-3xl font-bold text-[#1f2937] text-center mb-4">
+        <h1 className="text-2xl font-bold text-[#1f2937] mb-4">
           Simplifying Algebraic Expressions
         </h1>
 
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 text-lg">
           To simplify an algebraic expression, we just combine the like terms. Hence, the like variables will be combined together. Now, out of the like variables, the same powers will be combined together. For example, let us take an algebraic expression and try to reduce it to its lowest form in order to understand the concept better. Let our expression be:
         </p>
 

@@ -15,7 +15,7 @@ const ExponentMeaning = () => (
       </p>
       <div>
         <img
-          src="/exponent.png"
+          src="/exponentwo.png"
           alt="Exponent Example"
           className="mx-auto mt-4"  
         />
@@ -35,7 +35,7 @@ const ExponentMeaning = () => (
        </ul>
 
        <div>
-        <img src="/expo.png" alt="" className="mx-auto mt-4" />
+        <img src="/power.png" alt="" className="mx-auto mt-4" />
        </div>
     </section>
   );

@@ -43,7 +43,7 @@ const AlgebraicExplanation: React.FC = () => {
         </div>
 
         <div>
-            <img src="/algebra.png" alt="Variable and Constant" className="mt-6 w-full h-auto rounded-lg shadow-lg" />
+            <img src="/venn.png" alt="Variable and Constant" className="mt-6 w-full h-auto" />
         </div>
       </div>
     </div>
