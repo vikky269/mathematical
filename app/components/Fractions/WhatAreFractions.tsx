@@ -3,7 +3,7 @@ import React from "react";
 
 const WhatAreFractions = () => {
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-6 mt-6">
+    <section className="mb-6 mt-6">
       <h2 className="text-2xl font-bold text-center mb-4">What are Fractions?</h2>
       <p className="mb-2">
         Fractions, in Mathematics, are represented as a numerical value, which

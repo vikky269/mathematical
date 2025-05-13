@@ -6,7 +6,7 @@ const FractionConcept: React.FC = () => {
       <h1 className="text-3xl font-bold text-center mb-8">Understanding Fractions</h1>
 
       {/* Fraction Definition */}
-      <section className="mb-8 bg-white p-6 rounded-xl shadow">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">What is a Fraction?</h2>
         <p className="text-lg">
           A <strong>fraction</strong> is defined as a part of something, and a quantity that is not a whole number. 
@@ -15,7 +15,7 @@ const FractionConcept: React.FC = () => {
       </section>
 
       {/* Fraction Bar */}
-      <section className="mb-8 bg-white p-6 rounded-xl shadow">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">What is a Fraction Bar?</h2>
         <p className="text-lg mb-4">
           A <strong>fraction bar</strong> is the horizontal line that separates the numerator and the denominator.
@@ -33,7 +33,7 @@ const FractionConcept: React.FC = () => {
       </section>
 
       {/* Parts of a Fraction */}
-      <section className="bg-white p-6 rounded-xl shadow">
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Parts of a Fraction</h2>
         <p className="text-lg mb-4">
           All fractions consist of two main parts:

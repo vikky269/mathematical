@@ -4,7 +4,7 @@ import React from "react";
 
 const TypesOfFractions = () => {
   return (
-    <section className="bg-white p-6 rounded-lg shadow-md mb-6">
+    <section className="mb-6">
       <h2 className="text-2xl font-bold mb-4">Types of Fractions</h2>
       <p className="mb-2">
         Fractions can be classified into different types based on their numerators and denominators. The main types of fractions are:
