@@ -5,9 +5,9 @@ import { MathJax, MathJaxContext } from "better-react-mathjax";
 
 const AlgeMultiply = () => {
   return (
-    <main className="max-w-3xl mx-auto py-10 mt-1 text-lg">
+    <main className="max-w-3xl mx-auto  text-lg">
     <MathJaxContext version={3}>
-      <div className="px-6 py-10 bg-white text-gray-800 space-y-8 max-w-3xl mx-auto">
+      <div className="py-10  text-gray-800 space-y-8 max-w-3xl mx-auto">
         {/* Multiplying Algebraic Expressions */}
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900">
@@ -36,7 +36,7 @@ const AlgeMultiply = () => {
         </section>
 
         {/* Dividing Algebraic Expressions */}
-        <section className="space-y-4">
+        <section className="space-y-4 mt-6">
           <h2 className="text-2xl font-bold text-gray-900">
             Dividing Algebraic Expressions
           </h2>

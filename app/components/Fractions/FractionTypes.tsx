@@ -6,10 +6,10 @@ const TypesOfFractions = () => {
   return (
     <section className="mb-6">
       <h2 className="text-2xl font-bold mb-4">Types of Fractions</h2>
-      <p className="mb-2">
+      <p className="mb-2 text-lg">
         Fractions can be classified into different types based on their numerators and denominators. The main types of fractions are:
       </p>
-      <ul className="list-disc pl-6 mb-4 space-y-2">
+      <ul className="list-disc pl-6 mb-4 space-y-2 text-lg">
         <li>
           <strong>Proper Fractions:</strong> These are fractions where the numerator is less than the denominator. For example, <strong>3/5</strong>, <strong>2/7</strong>.
         </li>

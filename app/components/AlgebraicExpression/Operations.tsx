@@ -11,7 +11,7 @@ export default function AlgebraicOperations() {
   };
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-10 text-lg bg-white text-gray-800 space-y-10">
+    <main className="max-w-3xl mx-auto text-lg space-y-10">
       <MathJaxContext config={config}>
         {/* Adding Algebraic Expressions */}
         <section className="space-y-4">

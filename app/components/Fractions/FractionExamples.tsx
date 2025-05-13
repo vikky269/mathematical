@@ -6,10 +6,10 @@ const FractionExamples = () => {
   return (
     <section className="mb-6">
       <h2 className="text-2xl font-bold mb-4">Fraction Examples in Real Life</h2>
-      <p className="mb-2">
+      <p className="mb-2 text-lg">
         Let us look at a few examples of how fractions appear in everyday life:
       </p>
-      <ul className="list-disc list-inside mb-2 space-y-2">
+      <ul className="list-disc list-inside mb-2 space-y-2 text-lg">
         <li>
           When we divide a cake into 3 equal parts, then each part is <strong>1/3</strong> of the whole.
         </li>
