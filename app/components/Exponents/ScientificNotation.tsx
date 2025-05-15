@@ -8,8 +8,8 @@ const ScientificNotation = () => {
         Scientific notation expresses large or small numbers using powers of 10. 
       </p>
       <ul className="list-disc list-inside mt-2">
-        <li><code>560000 = 5.6 × 10⁵</code></li>
-        <li><code>0.00736567 = 7.36567 × 10⁻³</code></li>
+        <li><code>560000 = 5.6 x 10<sup>5</sup></code></li>
+        <li><code>0.00736567 = 7.36567 x 10<sup>-3</sup></code></li>
       </ul>
     </section>
   );

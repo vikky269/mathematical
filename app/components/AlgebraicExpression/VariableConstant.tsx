@@ -3,10 +3,10 @@ import React from 'react';
 const AlgebraicExplanation: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mb-6 text-[#76a40b]">Understanding Variables, Constants, Terms, and Coefficients</h1>
+      <h1 className="md:text-3xl text-2xl font-bold text-center mb-6">Understanding Variables, Constants, Terms, and Coefficients</h1>
       <div className="">
         <h2 className="text-xl font-semibold mb-4">What is a Variable?</h2>
-        <p className="text-lg text-gray-700">
+        <p className="text-gray-700">
           A symbol that doesn't have a fixed value is called a <strong>variable</strong>. It can take any value.
           For example, in the case of matchsticks, <code className="font-mono text-blue-600">n</code> is a variable
           and it can take values such as 1, 2, 3, and so on.

@@ -12,7 +12,7 @@ const DecimalExponents = () => {
       </p>
       <h2 className='mt-4 mb-2 font-bold'>Example</h2>
 
-      <p><code>4¹·⁵ = 4<sup>3/2</sup> = (√4)³ = 2³ = 8</code></p>
+      <p><code>4<sup>1.5</sup> = 4<sup>3/2</sup> = (√4)³ = 2³ = 8</code></p>
     </section>
   );
 };

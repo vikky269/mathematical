@@ -11,9 +11,9 @@ export default function WhatAlgebraicExpressionsAre() {
   };
 
   return (
-    <main className="max-w-3xl mx-auto py-10 text-lg">
+    <main className="max-w-3xl mx-auto py-10">
       <MathJaxContext config={config}>
-        <h1 className="text-3xl font-bold text-[#76a40b] text-center mb-4">
+        <h1 className="text-2xl font-bold  text-center mb-4">
           What are Algebraic Expressions?
         </h1>
 

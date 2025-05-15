@@ -10,7 +10,7 @@ import AlgeMultiply from '../components/AlgebraicExpression/Multiply'
 const page = () => {
   return (
     
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl">
 
           <Introduction />
           <WhatAlgebraicExpressionsAre />

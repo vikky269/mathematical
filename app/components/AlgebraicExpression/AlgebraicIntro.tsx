@@ -8,8 +8,8 @@ const Introduction = () => (
     transition={{ duration: 0.6 }}
     className="mt-6"
   >
-    <h2 className="text-3xl font-bold mb-4 text-center text-[#76a40b]">Algebraic Expressions</h2>
-    <p className='text-gray-800 text-lg mb-4 mt-6'>
+    <h2 className="text-2xl font-bold mb-4 text-center ">Algebraic Expressions</h2>
+    <p className='text-gray-800  mb-4 mt-6'>
       Algebraic expressions are mathematical statements formed by combining variables, constants, and
       arithmetic operations. For example, let us assume that James and Natalie were playing with matchsticks and thought of forming number patterns using them. 
       James took four matchsticks and formed the number 4. Natalie added three more matchsticks to form a pattern with two 4's. 
