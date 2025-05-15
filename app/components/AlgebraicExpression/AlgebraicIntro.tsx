@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Introduction = () => (
   <section className="mt-3">
     <h2 className="md:text-3xl text-2xl font-bold mb-3">Algebraic Expressions</h2>
-    <p className='text-gray-800 mb-4 mt-6'>
+    <p className='text-gray-800 mb-4 mt-4'>
       Algebraic expressions are mathematical statements formed by combining variables, constants, and
       arithmetic operations. For example, let us assume that James and Natalie were playing with
       matchsticks and thought of forming number patterns using them. 
