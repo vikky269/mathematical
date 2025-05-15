@@ -9,19 +9,18 @@ import AlgeMultiply from '../components/AlgebraicExpression/Multiply'
 
 const page = () => {
   return (
-    
-      <div className="max-w-3xl">
 
-          <Introduction />
-          <WhatAlgebraicExpressionsAre />
-          <AlgebraicExplanation />
-          <ExpressionTypes />
-          <SimplifyingAlgebra />
-          <AlgebraicOperations />
-          <AlgeMultiply />
-      </div>
-    
-    
+    <div>
+      <Introduction />
+      <WhatAlgebraicExpressionsAre />
+      <AlgebraicExplanation />
+      <ExpressionTypes />
+      <SimplifyingAlgebra />
+      <AlgebraicOperations />
+      <AlgeMultiply />
+    </div>
+
+
   )
 }
 

@@ -15,7 +15,7 @@ const FractionsOnNumberLine = () => {
 
       <div className="mb-8 mt-6">
         <img
-          src="/number-line.png"
+          src="/numberline.png"
           alt="Number line with fractions"
           className="mt-4 w-full h-auto"
         />
