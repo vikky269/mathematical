@@ -15,7 +15,7 @@ const page = () => {
       <WhatAlgebraicExpressionsAre />
       <AlgebraicExplanation />
       <ExpressionTypes />
-      {/* <SimplifyingAlgebra /> */}
+      <SimplifyingAlgebra />
       <AlgebraicOperations />
       <AlgeMultiply />
     </div>
