@@ -12,7 +12,7 @@ const config = {
 
 export default function SimplifyingAlgebraicExpressions() {
   return (
-    <main className="max-w-3xl py-10 text-lg">
+    <main className="max-w-3xl py-10">
       <MathJaxContext config={config}>
         <h1 className="text-2xl font-bold text-[#1f2937] mb-4">
           Simplifying Algebraic Expressions
