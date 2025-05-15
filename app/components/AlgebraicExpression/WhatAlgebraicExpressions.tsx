@@ -11,9 +11,9 @@ export default function WhatAlgebraicExpressionsAre() {
   };
 
   return (
-    <main className="max-w-3xl mx-auto py-10">
+    <main className="max-w-3xl py-10">
       <MathJaxContext config={config}>
-        <h1 className="text-2xl font-bold  text-center mb-4">
+        <h1 className="text-2xl font-bold   mb-4">
           What are Algebraic Expressions?
         </h1>
 
@@ -29,11 +29,11 @@ export default function WhatAlgebraicExpressionsAre() {
 
         <p className="text-gray-700 mb-2">Here are more examples:</p>
 
-              <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                  <li><MathJax inline>{'\\( 5x + 4y + 10 \\)'}</MathJax></li>
-                  <li><MathJax inline>{'\\( 2x^2y - 3xy^2 \\)'}</MathJax></li>
-                  <li><MathJax inline>{'\\( (-a + 4b)^2 + 6ab \\)'}</MathJax></li>
-              </ul>
+        <ul className="list-disc pl-5 space-y-2 text-gray-700">
+          <li><MathJax inline>{'\\( 5x + 4y + 10 \\)'}</MathJax></li>
+          <li><MathJax inline>{'\\( 2x^2y - 3xy^2 \\)'}</MathJax></li>
+          <li><MathJax inline>{'\\( (-a + 4b)^2 + 6ab \\)'}</MathJax></li>
+        </ul>
 
       </MathJaxContext>
     </main>

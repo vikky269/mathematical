@@ -5,12 +5,12 @@ import { MathJax, MathJaxContext } from "better-react-mathjax";
 
 const AlgeMultiply = () => {
   return (
-    <main className="max-w-3xl mx-auto  text-lg">
+    <main className="max-w-3xl text-lg">
     <MathJaxContext version={3}>
       <div className="py-10  text-gray-800 space-y-8 max-w-3xl mx-auto">
         {/* Multiplying Algebraic Expressions */}
         <section className="space-y-4">
-          <h2 className="text-2xl font-bold text-gray-900">
+          <h2 className="text-3xl font-bold text-gray-900">
             Multiplying Algebraic Expressions
           </h2>
           <p className="text-lg">
@@ -36,8 +36,8 @@ const AlgeMultiply = () => {
         </section>
 
         {/* Dividing Algebraic Expressions */}
-        <section className="space-y-4 mt-6">
-          <h2 className="text-2xl font-bold text-gray-900">
+        <section className="space-y-4 mt-9">
+          <h2 className="text-3xl font-bold text-gray-900">
             Dividing Algebraic Expressions
           </h2>
           <p className="text-lg">

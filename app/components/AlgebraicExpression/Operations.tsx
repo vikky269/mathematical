@@ -11,11 +11,11 @@ export default function AlgebraicOperations() {
   };
 
   return (
-    <main className="max-w-3xl mx-auto text-lg space-y-10">
+    <main className="max-w-3xl  text-lg space-y-10">
       <MathJaxContext config={config}>
         {/* Adding Algebraic Expressions */}
         <section className="space-y-4">
-          <h1 className="text-3xl font-bold text-[#1f2937]">
+          <h1 className="md:text-3xl text-2xl font-bold text-[#1f2937]">
             Adding Algebraic Expressions
           </h1>
           <p>
@@ -41,7 +41,7 @@ export default function AlgebraicOperations() {
 
         {/* Subtracting Algebraic Expressions */}
         <section className="space-y-4">
-          <h1 className="text-3xl font-bold text-[#1f2937]">
+          <h1 className="md:text-3xl text-2xl font-bold text-[#1f2937]">
             Subtracting Algebraic Expressions
           </h1>
           <p>
