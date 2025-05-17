@@ -1,9 +1,17 @@
 "use client";
 import React from "react";
+import { MathJax, MathJaxContext } from 'better-react-mathjax';
+
+const config = {
+  loader: { load: ['[tex]/require', '[tex]/ams'] },
+  tex: {
+    packages: ['base', 'ams'],
+  },
+};
 
 const WhatAreFractions = () => {
   return (
-    <section className="mb-6 mt-6">
+    <section className="mb-6 mt-6 md:text-lg">
       <h2 className="text-2xl font-bold text-center mb-4">What are Fractions?</h2>
       <p className="mb-2">
         Fractions, in Mathematics, are represented as a numerical value, which
@@ -14,7 +22,7 @@ const WhatAreFractions = () => {
       <p className="mb-2">
         Let us understand this concept using an example. The following figure
         shows a pizza that is divided into 8 equal parts. Now, if we want to
-        express one selected part of the pizza, we can express it as <strong>1/8 </strong>
+        express one selected part of the pizza, we can express it as <strong><MathJax inline>{"\\( \\frac{1}{8} \\)"}</MathJax></strong>
         which shows that out of 8 equal parts, we are referring to 1 part.
       </p>
       <p className="mb-2">
@@ -23,9 +31,9 @@ const WhatAreFractions = () => {
         <br />- 1 by 8
       </p>
       <p className="mb-2">
-        If we select 2 parts of the pizza, it will be expressed as <strong>2/8</strong>.
+        If we select 2 parts of the pizza, it will be expressed as <strong><MathJax inline>{"\\( \\frac{2}{8} \\)"}</MathJax></strong>.
         Similarly, if we are referring to 6 parts of this pizza, we would write
-        it as <strong>6/8</strong> as a fraction.
+        it as <strong><MathJax inline>{"\\( \\frac{6}{8} \\)"}</MathJax></strong> as a fraction.
       </p>
 
       <div>
