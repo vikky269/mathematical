@@ -10,7 +10,7 @@ const Introduction = () => (
     className=""
   >
     <h2 className="text-2xl font-bold text-center mb-4">Fractions</h2>
-    <p className="mb-4 text-lg">
+    <p className="mb-4 md:text-lg">
       A fraction shows part of a whole. This whole can be a region or a collection. The word
       fraction is derived from the Latin word 'fractio' which means 'to break'. The Egyptians
       used fractions to resolve mathematical problems involving division of food, supplies, and
