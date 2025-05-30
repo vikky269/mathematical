@@ -15,7 +15,7 @@ const topics = [
   { name: "Trigonometry", path: "/trigonometry" },
   { name: "Calculus", path: "/calculus" },
   { name: "Exponents", path: "/exponents" },
-  { name: "Logarithms", path: "/logarithms" },
+  { name: "Measurements", path: "/measurements" },
   { name: "Differentiation", path: "/differentiation" },
   { name: "Integration", path: "/integration" },
   { name: "Mensuration", path: "/mensuration" },
